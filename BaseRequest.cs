@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Vlekops.Result
+namespace Vleko.Result
 {
     public class QueryRequest
     {

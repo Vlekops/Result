@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Vlekops.Result
+namespace Vleko.Result
 {
     public class StatusResponse
     {

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>Vleko</Authors>
+		<Company>Media Indo Teknologi</Company>
+		<Description>Request Result Response</Description>
+		<Copyright>Copyright 2022</Copyright>
+		<PackageProjectUrl>https://github.com/Vlekops/Result</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Vlekops/Result</RepositoryUrl>
+		<PackageTags>Result</PackageTags>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<RepositoryType>git</RepositoryType>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<AssemblyVersion></AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+	</ItemGroup>
+
+</Project>
